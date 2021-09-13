@@ -39,9 +39,9 @@ def compile_pdfs(country_urls: List[str], path: str) -> None:
             with open(mdpath, "w") as f:
                 f.write(markdownify(str(header), strip=["img"]))
                 f.write(
-                    markdownify(str(body)).replace(
-                        "/assets", "https://www.policinglaw.info/assets"
-                    )
+                    markdownify(str(body))
+                    .replace("/assets", "https://www.policinglaw.info/assets")
+                    .replace("\u0002", "")
                 )  # Add original url to preserve download links.
             subprocess.run(
                 [f"pandoc --pdf-engine=xelatex {mdpath} -o {fpath}"],
