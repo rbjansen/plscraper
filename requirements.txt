@@ -1,0 +1,12 @@
+about-time==3.1.1
+alive-progress==2.0.0
+beautifulsoup4==4.10.0
+certifi==2021.5.30
+charset-normalizer==2.0.4
+grapheme==0.6.0
+idna==3.2
+markdownify==0.9.4
+requests==2.26.0
+six==1.16.0
+soupsieve==2.2.1
+urllib3==1.26.6
