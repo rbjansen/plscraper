@@ -1,6 +1,6 @@
 # plscraper
 
-Scrapes country profiles at https://www.policinglaw.info/ to markdown-pdf.
+Scrapes country profiles at https://www.policinglaw.info/ to pdf.
 
 ## Installation and usage
 
