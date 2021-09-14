@@ -24,4 +24,4 @@ After this you should be good to go! Run the scraper with:
 ```
 python scraper.py
 ```
-It will output each country's profile page in pdf under /outputs, and create a csv containing the country's compatibility scores.
+It will produce a pdf of each country's profile page under /outputs, along with a csv containing the countries' compatibility scores.
