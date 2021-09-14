@@ -1,6 +1,6 @@
 # plscraper
 
-Scrapes country profiles at https://www.policinglaw.info/ to pdf.
+Scrapes country profiles at https://www.policinglaw.info/.
 
 ## Installation and usage
 
@@ -24,4 +24,4 @@ After this you should be good to go! Run the scraper with:
 ```
 python scraper.py
 ```
-It will output each country's profile page to pdf under /outputs.
+It will output each country's profile page in pdf under /outputs, and create a csv containing the country's compatibility scores.
