@@ -64,7 +64,7 @@ def parse_page(country_urls: List[str], path: str) -> None:
         lambda row: Country.get_iso3_country_code_fuzzy(row.name)[0], axis=1
     )
     # Western Sahara not recognized.
-    df.loc[df.index == "sahrawi-arab-democratic-republic", "iso"] = "ESH"
+    df.loc[df.index == "sahrawi-arab-democratic-republic", "isoab3"] = "ESH"
     df.to_csv(os.path.join(path, "country_compatibilities.csv"))
 
 
